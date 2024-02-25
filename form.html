@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="studentAdd.php" method="POST">
+        <label for="stu_name">Name</label>
+        <input type="text" name="name" id="stu_name">
+        <br><br>
+        <label for="stu_email">Email</label>
+        <input type="email" name="email" id="stu_email">
+        <br><br>
+        <label for="stu_phone">Phone</label>
+        <input type="number" name="phone" id="stu_phone">
+        <br><br>
+        <label for="stu_password">Password</label>
+        <input type="password" name="password" id="stu_password">
+        <br><br>
+        <label for="stu_dob">Date of Birth</label>
+        <input type="date" name="dob" id="stu_dob">
+        <br><br>
+        <label for="stu_year">Year</label>
+        <input type="file" accept=".png, .jpg" name="passport" id="stu_passport">
+        <br><br>
+        <label for="stu_year">Year</label>
+        <select name="year" id="stu_year">
+            <option value="">Choose Year</option>
+            <option value="">First Year</option>
+            <option value="">Second Year</option>
+            <option value="">Third Year</option>
+        </select>
+        <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female"><label for="female">Female</label>
+        <br><br>
+        <label for=""></label>
+        <input type="checkbox" name="travelling" id="travelling" value="Travelling"><label for="travelling">Travelling</label>
+        <input type="checkbox" name="gamming" id="gamming" value="Gamming"><label for="gamming">Gamming</label>
+        <input type="checkbox" name="swimming" id="swimming" value="Swimming"><label for="swimming">Swimming</label>
+        <br><br>
+        <label for="stu_address">Address</label>
+        <textarea name="address" id="stu_address"cols="35" rows="10">
+
+        </textarea>
+        <br><br>
+        <input type="time" name="" id="">
+        <input type="week" name="" id="">
+        <input type="color" name="" id="">
+        <input type="range" name="range" id="" max="100" min="0">
+        <br><br>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
