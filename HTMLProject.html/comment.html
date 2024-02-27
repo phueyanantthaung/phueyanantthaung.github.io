@@ -23,23 +23,31 @@
         </h3>
         </header>
         <hr>
-        <span align="center"><h3>Leave a Comment</h3><br>
+        <h3 align="center">Leave a Comment</h3>
+    <table border="0" cellspacing="0" cellpadding="10" align="center">
+        <tbody>
+            <tr>
     <form action="Project1.php" method="POST">
-        <label for="p_name">Name:</label>
-        <input type="text" name="name" id="p_name">
-        <br><br>
-        <label for="p_email">Email:</label>
-        <input type="email" name="email" id="p_email">
-        <br><br>
-        <label for="p_phone">Phone:</label>
-        <input type="number" name="phone" id="p_phone">
-        <br><br>
-        <label for="p_comment" align="center">Comment:</label>
-        <textarea name="comment" id="p_comment" cols="25" rows="7"></textarea>
-        <br><br>
-        <button type="submit">Add</button>
-        </form>
-        </span>
+        <td><label for="p_name">Name:</label></td>
+        <td><input type="text" name="name" id="p_name"></td>
+    </tr>
+    <tr>
+        <td><label for="p_email">Email:</label></td>
+        <td><input type="email" name="email" id="p_email"></td>
+        </tr>
+        <tr>
+        <td><label for="p_phone">Phone:</label></td>
+        <td><input type="number" name="phone" id="p_phone"></td>
+        </tr>
+        <tr>
+        <td align="center"><label for="p_comment">Comment:</label></td>
+        <td><textarea name="comment" id="p_comment" cols="25" rows="7"></textarea></td>
+        <tr>
+            <td colspan="2" align="center"><button type="submit">Add</button></td>
+        </tr>
+    </form>
+        </tbody>
+    </table>
         <br><br>
         <hr>
         <footer>
