@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            /* grid-template-columns: 3fr 2fr 1fr; */
+            grid-template-columns: repeat(3,3fr);
+            /* grid-template-rows: 3fr 2fr 1fr; */
+            /* grid-template-columns: repeat(2, 1fr); */
+            background-color:grey;
+            padding: 50px;
+            row-gap: 15px;
+            column-gap: 15px;
+            /* gap: 20px 30px; */
+        }
+        .grid-item{
+            background-color: rgb(216, 89, 89);
+            border: 1px solid black;
+            padding: 25px;
+            text-align: center;
+        }
+        .item1{
+            background-color: rgb(134, 218, 233);
+            grid-column: 2/span 2;
+            grid-row: 1/span 2;
+        }
+        .item4{
+            background-color: rgb(202, 218, 64);
+            color:red;
+            grid-column: 1;
+            grid-row: 1;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1">
+           <h3>Header 1</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Velit, eaque minima expedita, consequatur nemo autem
+               maxime ab culpa accusantium facere impedit dicta, sed ipsum molestias?</p>
+
+        </div>
+        <div class="grid-item item2">
+           <h3>Header 2</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Velit, eaque minima expedita, consequatur nemo autem
+               maxime ab culpa accusantium facere impedit dicta, sed ipsum molestias?</p>
+
+        </div>
+        <div class="grid-item item3">
+           <h3>Header 3</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Velit, eaque minima expedita, consequatur nemo autem
+               maxime ab culpa accusantium facere impedit dicta, sed ipsum molestias?</p>
+
+        </div>
+        <div class="grid-item item4">
+           <h3>Header 4</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Velit, eaque minima expedita, consequatur nemo autem
+               maxime ab culpa accusantium facere impedit dicta, sed ipsum molestias?</p>
+
+        </div>
+        <div class="grid-item item5">
+           <h3>Header 5</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Velit, eaque minima expedita, consequatur nemo autem
+               maxime ab culpa accusantium facere impedit dicta, sed ipsum molestias?</p>
+
+        </div>
+        <div class="grid-item item6">
+           <h3>Header 6</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Velit, eaque minima expedita, consequatur nemo autem
+               maxime ab culpa accusantium facere impedit dicta, sed ipsum molestias?</p>
+
+        </div>
+   </div>
+</body>
+</html>
