@@ -3,10 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Idol Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Kim Yoo Jung</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+
+    <nav class="navbar">
+        <div class="name">
+            <h2>KIM YOO JUNG</h2>
+        </div>
+        <div class="nav-title">
+            <ul>
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="#photo">PHOTOS</a>
+                </li>
+                <li>
+                    <a href="#activitie">ACTIVITIES</a>
+                </li>
+                <li>
+                    <a href="#subscribe">SUBSCRIBE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="main">
+        <div>
+            <img src="images/eeo.jpg" alt="" class="main-img">
+        </div>
+        <div class="main-intro">
+            <h3>Hi, I'm Kim Yoo Jung!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere rerum dicta provident aperiam officiis, necessitatibus porro minus aspernatur ea, ducimus commodi voluptates reprehenderit officia fugiat nam vitae enim fuga debitis dolorum natus quos, repellat culpa? Maxime eos excepturi consequuntur tenetur alias labore quis corrupti inventore tempora suscipit a, eum voluptatibus animi fuga iusto accusamus similique eaque veritatis itaque quo sequi dolores voluptates vel. In ut praesentium ipsa! Ab aperiam veniam illo in quas dicta, delectus, quos dignissimos provident aliquam harum tempora quo inventore quod eaque praesentium dolor vitae vero unde nam cumque, illum ullam! Temporibus assumenda eum iusto fugiat, architecto ipsam
+               velit mollitia laboriosam tempore repellat quo. Eveniet officiis necessitatibus nostrum labore in odit, ad vero modi doloremque cum mollitia similique magnam non voluptatum distinctio repudiandae reprehenderit a earum voluptas enim praesentium quas dicta. Laborum unde est omnis labore laboriosam officiis dicta maxime optio vel, debitis, laudantium ut. Debitis, eos?</p>
+        </div>     
+    </header>
     
+    <h1 class="kim-photo-title" id="photo">PHOTOS</h1>
+    <div class="kim-photo-container">
+        <div class="kim-photo">
+            <img src="images/a.jpg" alt="" class="photo-img" >
+            <img src="images/b.jpg" alt="" class="photo-img">
+            <img src="images/c.jpg" alt="" class="photo-img">
+            <img src="images/dara.jpg" alt="" class="photo-img">
+            <img src="images/download (5).jpg" alt="" class="photo-img">
+        </div>
+        <a href="" class="view-more-button">View More</a>
+    </div>
+    
+    <h1 class="kim-activitie-title" id="activitie">ACTIVITIES</h1>
+    <div class="kim-activitie">
+        <div class="activitie-item">
+            <img src="images/moon.jpg" alt="" class="activitie-img">
+            <div class="content">
+                <p class="k-name">Love in the Moon Light</p>
+                <p class="k-year">(2016)</p>
+            </div>
+        </div>
+        <div class="activitie-item">
+            <img src="images/rookie.jpg" alt="" class="activitie-img">
+            <div class="content">
+                <p class="k-name">Backstreet Rookie</p>
+                <p class="k-year">(2020)</p>
+            </div>
+        </div>
+        <div class="activitie-item">
+            <img src="images/red.jpg" alt="" class="activitie-img">
+            <div class="content">
+                <p class="k-name">Lover of the Red Sky</p>
+                <p class="k-year">(2021)</p>
+            </div>
+        </div>
+        <div class="activitie-item">
+            <img src="images/century.jpg" alt="" class="activitie-img">
+            <div class="content">
+                <p class="k-name">20th Century Girl</p>
+                <p class="k-year">(2022)</p>
+            </div>
+        </div>
+        <div class="activitie-item">
+            <img src="images/demon.jpg" alt="" class="activitie-img">
+            <div class="content">
+                <p class="k-name">My Demon</p>
+                <p class="k-year">(2023)</p>
+            </div>
+        </div>
+    </div>  
+    <div class="view-more">
+        <a href="" class="view-more-button">View More</a>
+    </div>
+
+
+    <h2 class="kim-subscribe-title" id="subscribe">SUBSCRIBE</h2>
+    <div class="subscribe-form">
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name  <span class="star">*</span></label>
+                <input type="text" name="name" id="name">
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email  <span class="star">*</span></label>
+                <input type="text" name="email" id="email">
+            </div>
+    
+            <div class="form-group">
+                <label for="country">Country  <span class="star">*</span></label>
+                <select name="country" id="country">
+                    <option value="">Select...</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="China">China</option>
+                    <option value="England">England</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Philippine">Philippine</option>
+                    <option value="Polan">Polan</option>
+                    <option value="Thai">Thai</option>
+                    <option value="United State">United State</option>                
+                </select>
+            </div>
+            <button class="submit-button" type="submit" >Submit</button>
+        </form>
+    </div>
+
+    <hr>
+    <footer class="footer">
+        <div class="contact-icon">
+            <a href="https://www.facebook.com/yoojungfever" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://twitter.com/itsKimYooJung/header_photo" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.instagram.com/you_r_love/?hl=en" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.tiktok.com/@kimyoojung_you_r_love" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@kimyoojungchannel5295" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div>
+
+            <div class="end">
+               <p>&copy;<span class="footer-title">Kim Yoo Jung</span>,All Right Reserved</p>
+               <p>Design By <a href="https://www.facebook.com/profile.php?id=100071355463898" target="_blank" class="dev" >Phue</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
