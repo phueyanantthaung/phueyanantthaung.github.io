@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let trafficlight = prompt ('Enter a traffic light');
+        console.log(trafficlight);
+        if (trafficlight == 'red' || trafficlight == 'Red' || trafficlight =='RED') {
+            document.write('<h1>Stop driving a car.</h1>');
+        } else if (trafficlight == 'yellow' || trafficlight == 'Yellow' || trafficlight =='YELLOW') {
+            document.write('<h1>Warning to red light</h1>');
+        } else if (trafficlight == 'green' || trafficlight == 'Green' || trafficlight =='GREEN') {
+            document.write('<h1>Start driving a car.</h1>');
+        } else {
+            document.write('<h1>Traffic light error.</h1>');
+        }
+    </script>
+</body>
+</html>

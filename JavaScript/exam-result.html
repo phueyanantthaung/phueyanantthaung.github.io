@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exam Result</h1>
+    <form name="myForm">
+        <label for="name_id">Name</label>
+        <input type="text" name="name" id="name_id">
+        <br><br>
+        <label for="html_id">HTML</label>
+        <input type="number" name="html" id="html_id">
+        <br><br>
+        <label for="name_id">CSS</label>
+        <input type="number" name="css" id="css_id">
+        <br><br>
+        <label for="name_id">JavaScript</label>
+        <input type="number" name="js" id="js_id">
+        <br><br>
+        <button type="button" onclick="result()">Result</button>
+    </form>
+    <script>
+        function result() {
+            // alert ("hello");
+            let name= document.myForm.name.value;
+            console.log (name);
+            let html= document.myForm.html.value;
+            console.log (html);
+            let css= document.myForm.css.value;
+            console.log (css);
+            let js= document.myForm.js.value;
+            console.log (js);
+
+            let totalSubjects =3;
+            let averageScore = (html + css + js)/totalSubjects;
+            
+            if (averageScore >= 81) {
+                document.write ('<h1 style="color: gold">'+name +' is with Distinction</h1>');
+            } else if ( averageScore >= 50) {
+                document.write ('<h1 style="color: green">'+name +' is with Pass</h1>');
+            }
+            else {
+                document.write ('<h1 style="color: red">'+name +' is with Fail</h1>')
+            }
+        }    
+    </script>
+</body>
+</html>
