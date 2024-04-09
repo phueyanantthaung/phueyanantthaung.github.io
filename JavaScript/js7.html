@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String Lesson</h1>
+    <script>
+        let firstName= 'Phue';
+        let lastName= 'Yanant Thaung';
+        document.write('<h3>'+typeof(firstName)+'</h3>');
+        document.write('<h3>'+typeof(lastName)+'</h3>');
+        document.write('<h3>'+firstName+'</h3>');
+        document.write('<h3>'+lastName+'</h3>');
+        document.write('<h3>'+firstName.length+'</h3>');
+        document.write('<h3>'+lastName.length+'</h3>');
+        let fullName = firstName.concat(' ',lastName);
+        document.write('<h3>'+fullName+'</h3>');
+        document.write('<h3>My name is '+fullName+'</h3>');
+        document.write(`<h3>My name is ${fullName}</h3>`);
+        document.write('<h3>'+fullName[5]+'</h3>');
+        document.write('<h3>'+fullName.toUpperCase()+'</h3>');
+        document.write('<h3>'+fullName.toLowerCase()+'</h3>');
+        document.write('<h3>'+fullName.substr(5,6)+'</h3>'); //substr(start,number)
+        
+        let job='Web Developer';
+        document.write('<h3>My job is'+job+'.</h3>');
+        document.write('<h3>My job is'+job.trim()+'.</h3>');
+
+        let ser='I want to visit Yangon';
+            document.write(`<h3>${ser}</h3>`);
+            let ser_result = ser.search(`to`);
+            document.write(`<h3>${ser_result}</h3>`);
+
+            let rep_result= ser.replace('Yangon','Mandalay');
+            document.write(`<h3>${rep_result}</h3>`);
+
+            let money = '43,500';
+            money =money.replace(/\,/g,'');
+            document.write(`<h3>${money+3}</h3>`);
+            document.write(`<h3>${typeof(money)}</h3>`);
+            let money_num= Number(money);
+            document.write(`<h3>${money_num+3}</h3>`);
+            document.write(`<h3>${typeof(money_num)}</h3>`);
+
+            console.log('Hello \n JS');
+            console.log('\t JavaScript');
+            console.log('I\'m a programmer');
+            console.log("I am a \"Developer\"");
+            console.log("I'm a programmer");
+            console.log('I am a "Developer"');
+
+    </script>
+</body>
+</html>
