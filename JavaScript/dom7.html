@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    <button onclick="show()">show</button><br><br>
+    </form>
+
+    <table border="1" cellspacing="0" cellpadding="15">
+        <thead>
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody id="tBody">
+
+        </tbody>
+    </table>
+
+    <script>
+        let i= 1;
+        function show() {
+            // let name=document.userForm.name.value;
+            // let email = document.userForm.email.value;
+            // let data ='';
+            // document.querySelector('#name').innerHTML = data;
+            // document.querySelector('#email').innerHTML = data;
+            // let data = ["Name:" + name + "Email:" + email ]
+            // let data = [
+            //     {name : 'name', email: document.userForm.email.value}
+            // //     // {name : 'Aung Aung', email:'aungaung@gmail.com'},
+            // //     // {name : 'Hla Hla', email:'hlahla@gmail.com'},
+            // ]
+        //     let myData ='';
+        //     let i= 1;
+        //     for(let value of data){
+        //     myData += `<tr>
+        //                 <td>${i++}</td>
+        //                 <td>${value.name}</td>
+        //                 <td>${value.email}</td>
+        //             </tr>`;
+        // }
+        // console.log(myData);
+        // document.querySelector('#name').innerHTML = data;
+        // document.querySelector('#email').innerHTML = data;
+        // document.querySelector('#tBody').innerHTML = myData;
+            let name= document.querySelector('#name').value;
+            let email= document.querySelector('#email').value;
+            let tbody=document.querySelector('#tBody');
+            tBody.innerHTML += `<tr>
+                                <td>${i++}</td>
+                                <td>${name}</td>
+                                <td>${email}</td>
+                                </tr>`;
+
+        }
+    </script>
+</body>
+</html>
