@@ -117,6 +117,12 @@
   margin-top: 90px;
 }
 
+.label-text{
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .check_form .home_check  {
   border: white solid 1px;
   padding: 0 15px;
