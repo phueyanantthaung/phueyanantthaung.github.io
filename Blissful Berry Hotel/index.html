@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Berry Hotel</title>
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+</head>
+<body>
+
+  <!-- start navigation -->
+  <nav class="navbar navbar-expand-lg shadow py-3">
+    <div class="container">
+      <div class="brand">
+        <img src="images/logo.jpg" alt="" class="logo-image">
+        <h3>Blissful Berry</h3>
+      </div>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+          <li class="nav-item fw-bold px-3">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item fw-bold px-3">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item fw-bold px-3">
+            <a href="rooms.html" class="nav-link">Rooms</a>
+          </li>
+          <li class="nav-item fw-bold px-3">
+            <a href="facilities.html" class="nav-link">Facilities</a>
+          </li>
+          <li class="nav-item fw-bold px-3">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navigation -->
+
+  <!-- start carousel slide -->
+  <div class="carousel slide h_carousel" id="myCarousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button class="active indi" data-bs-target="#myCarousel" data-bs-slide-to="0"></button>
+      <button data-bs-target="#myCarousel" data-bs-slide-to="1" class="indi"></button>
+      <button data-bs-target="#myCarousel" data-bs-slide-to="2" class="indi"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="welcome_title text-uppercase">Welcome From Our Hotel</h4>
+          <p class="welcome_text">Welcome to <span class="hotel-name">Blissful Berry Hotel! </span>Experience unparalleled comfort and exceptional service in the heart of Mandalay. Relax, unwind, and enjoy your stay. Your satisfaction is our priority. We're delighted to have you. Relax and enjoy our warm hospitality and luxurious comfort. Your home away from home awaits. Have a sweet and memorable stay!</p>
+        </div>
+        <img src="images/m1.jpg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="welcome_title text-uppercase">Welcome From Our Hotel</h4>
+          <p class="welcome_text">Welcome to <span class="hotel-name">Blissful Berry Hotel! </span> Experience unparalleled comfort and exceptional service in the heart of Mandalay. Relax, unwind, and enjoy your stay. Your satisfaction is our priority. We're delighted to have you. Relax and enjoy our warm hospitality and luxurious comfort. Your home away from home awaits. Have a sweet and memorable stay!</p>
+        </div>
+        <img src="images/m2.jpg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="welcome_title text text-uppercase">Welcome From Our Hotel</h4>
+          <p class="welcome_text">Welcome to <span class="hotel-name">Blissful Berry Hotel! </span> Experience unparalleled comfort and exceptional service in the heart of Mandalay. Relax, unwind, and enjoy your stay. Your satisfaction is our priority. We're delighted to have you. Relax and enjoy our warm hospitality and luxurious comfort. Your home away from home awaits. Have a sweet and memorable stay!</p>
+        </div>
+        <img src="images/m3.jpg" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- end carousel slide -->
+
+  <!-- start check availability -->
+  <div class="container check_avali">
+    <div class="row">
+      <div class="col-lg-7">
+        <img src="images/check photo.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-5">
+        <form action="#" class="check_form">
+          <div class="row">
+            <div class="col-lg-6">
+              <label for="hotel_date_from">From</label>
+          <input type="date" name="start_date" id="hotel_date_from" class="form-control home_check">
+            </div>
+            <div class="col-lg-6">
+              <label for="hotel_date_to">To</label>
+          <input type="date" name="end_date" id="hotel_date_to" class="form-control home_check">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <label for="customer_one">Adults</label>
+              <input type="number" name="name" id="customer_one" class="form-control home_check">
+            </div>
+            <div class="col-lg-4">
+              <label for="customer_two">Children</label>
+              <input type="number" name="name" id="customer_two" class="form-control home_check">
+            </div>
+            <div class="col-lg-4">
+              <label for="customer_room">Rooms</label>
+              <input type="number" name="num" id="customer_room" class="form-control home_check">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <label for="choose_room">Room</label>
+            <select name="name" id="available_room" class="form-control home_check">
+              <option vlaue="">Select Room</option>
+              <option value="">Single Room</option>
+              <option value="">Double Room</option>
+              <option value="">Suite Room</option>
+              <option value="">Family Room</option>
+              <option value="">Deluxe Room</option>
+              <option value="">Luxury Room</option>
+            </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="contact.html" class="check_link"><button type="button" class="form-control check_btn">CHECK AVAILABILITY</button></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- end check availability -->
+
+  <!-- start contact us -->
+  <div class="container about_us">
+    <h2 class="text-uppercase h_about">About Us</h2>
+    <div class="row" id="about">
+      <div class="col-lg-5">
+        <p>Welcome to The Blissful Berry Hotel, where charm and comfort come together to create a delightful escape. Nestled in a picturesque location, our hotel offers cozy, elegantly designed rooms with modern amenities and stunning views. Enjoy delicious dishes at our intimate restaurant, unwind with soothing treatments at our boutique spa, or explore nearby attractions with our curated activities.Discover a haven of peace and relaxation at The Blissful Berry Hotel. Let us make your visit unforgettable with our warm hospitality and exceptional service.</p>
+        <a href="about.html" class="h_aboutus_link"><button class="viewmore_btn px-4">View More</button></a>
+        <br>
+      </div>
+      <div class="col-lg-7">
+        <img src="images/ab.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- end contact us -->
+
+  <!-- start room -->
+  <div class="room">
+    <div class="container">
+      <h2 class="text-uppercase h_room">OUR ROOMS</h2>
+        <div class="card-group">
+          <div class="card">
+            <img src="images/single room.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Single Room</h5>
+              <!-- <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 1 Person </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 70000MMK/night</li>
+                </ul>
+              </p> -->
+            </div>
+            <div class="card-footer">
+              <a href="rooms.html" class="home_room_link"><p class="text-body-secondary r_book"> View More </p></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/double room.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Double Room</h5>
+              <!-- <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 2 Persons </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 95000MMK/night</li>
+                </ul>
+              </p> -->
+            </div>
+            <div class="card-footer">
+              <a href="rooms.html" class="home_room_link"><p class="text-body-secondary r_book">View More </p></a>
+            </div>
+          </div>
+            <div class="card">
+              <img src="images/suite room.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Suite Room</h5>
+                <!-- <p class="card-text">
+                  <ul class="list r_list">
+                    <li class="list-item">Max: 2 Persons </li>
+                    <li class="list-item">Bed: 1</li>
+                    <li class="list-item">View: Mountain View</li>
+                    <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                    <li class="list-item">Price: 100000MMK/night</li>
+                  </ul>
+                </p> -->
+              </div>
+              <div class="card-footer">
+                <a href="rooms.html" class="home_room_link"><p class="text-body-secondary r_book">View More</p></a>
+              </div>
+            </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img src="images/family-room.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Family Room</h5>
+              <!-- <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 3 Persons </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 160000MMK/night</li>
+                </ul>
+              </p> -->
+            </div>
+            <div class="card-footer">
+              <a href="rooms.html" class="home_room_link"><p class="text-body-secondary r_book">View More</p></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/deluxe-room.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Deluxe Room</h5>
+              <!-- <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 1 Person </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 90000MMK/night</li>
+                </ul>
+              </p> -->
+            </div>
+            <div class="card-footer">
+              <a href="rooms.html" class="home_room_link"><p class="text-body-secondary r_book"> View More</p></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/luxury room.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Luxury Room</h5>
+              <!-- <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 2 Persons </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast, Spa</li>
+                  <li class="list-item">Price: 250000MMK/night</li>
+                </ul>
+              </p> -->
+            </div>
+            <div class="card-footer">
+              <a href="rooms.html" class="home_room_link"><p class="text-body-secondary r_book">View More</p></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- end room -->
+
+  <!-- start facilities -->
+  <div class="container">
+      <h3 class="text-uppercase h_facility">Facilities</h3>
+        <div class="row" id="facilities">
+          <div class="col-lg-8">
+            <img src="images/f1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-4">
+          <br>
+            <h4>FITNESS CENTER</h4>
+            <p>Our fitness center offers state-of-the-art equipment for a revitalizing workout experience during your stay.</p>
+            <a href="facilities.html" class="h_facility_link"><button class="viewmore_btn px-4">View More</button></a>
+          </div>
+        </div>
+        <br><br>
+        <div class="row" id="facilities">
+          <div class="col-lg-4">
+          <br>
+            <h4>RESTAURANT</h4>
+            <p>Enjoy gourmet dining at our hotel restaurant, featuring fresh, local ingredients in an elegant setting.</p>
+            <a href="facilities.html" class="h_facility_link"><button class="viewmore_btn px-4">View More</button></a>
+            <br>
+          </div>
+          <div class="col-lg-8">
+            <img src="images/f2.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+  </div>
+  <!-- end facilities -->
+
+
+  <!-- start contact us -->
+  <div class="contact">
+      <div class="container">
+        <h2 class="text-uppercase h_contact">Contact</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form id="request" class="main_form">
+              <div class="row">
+                <div class="col-md-12">
+                  <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                </div>
+                <div class="col-md-12">
+                  <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                </div>
+                <div class="col-md-12">
+                  <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                </div>
+                <div class="col-md-12">
+                  <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                </div>
+                <div class="col-md-12">
+                  <button class="send_btn">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="map_main">
+              <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808945.2149652534!2d96.00758545997893!3d21.827035395297614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d23f0d27411%3A0x24146be01e4e5646!2sMandalay!5e0!3m2!1sen!2smm!4v1716879880093!5m2!1sen!2smm" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- end contact us -->
+
+  <!-- start footer -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class=" col-md-4">
+            <h3>Contact US</h3>
+            <ul class="conta">
+              <li><i class="fa fa-map-marker" aria-hidden="true"></i>77(A)/37*38, Mandalay, Myanmar</li>
+              <li><i class="fa fa-mobile" aria-hidden="true"></i>+959 988120853</li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">phueyanantthaungg@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Menu Link</h3>
+            <ul class="link_menu">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="about.html"> About</a></li>
+              <li><a href="rooms.html">Rooms</a></li>
+              <li><a href="facilities.html">Facilities</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>News letter</h3>
+            <form class="bottom_form">
+                <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                <button class="sub_btn">subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="social_icon">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+              <p>All Right Reserved | Design by <a>Phue</a> <span style="color: #fff;">&hearts;</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/typewriter.js"></script>
+</body>
+</html>

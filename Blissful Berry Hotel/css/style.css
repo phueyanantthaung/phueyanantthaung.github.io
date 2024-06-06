@@ -1,0 +1,542 @@
+*{
+  background-color: light;
+}
+
+/* start home page */
+.logo-image {
+    width: 70px;
+    height: 70px;
+    
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand h3{
+  color: #E1B01B;
+}
+
+.nav-link:hover {
+  color:#E1B01B;
+  border-bottom: #E1B01B solid 3px;
+  /* text-decoration: none; */
+}
+
+.h_carousel{
+  position: relative;
+}
+
+.carousel-indicators .indi{
+  width: 25px;
+  height: 5px;
+  border-radius: 60px;
+  background: black;
+}
+
+.carousel-indicators .active {
+  background-color: #E1B01B;
+}
+
+.welcome_title{
+  text-align: center;
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+  color: #fff;
+}
+
+.welcome_text{
+  text-align: center;
+  font-weight: 600;
+  /* letter-spacing: 3px; */
+  color: #fff;
+} 
+
+.hotel-name{
+  font-weight: bold;
+  font-size: medium;
+}
+
+.hotel-name:hover{
+  color:#E1B01B;
+}
+
+.h_about{
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: black;
+  /* padding-top: 30px; */
+  padding-bottom: 50px;
+}
+
+.home_room_link {
+  text-decoration: none;
+}
+
+.room_link {
+  text-decoration: none;
+}
+
+.h_room{
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: black;
+  /* padding-top: 30px; */
+  padding-bottom: 50px;
+}
+
+.h_facility{
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.h_contact{
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: black;
+  /* padding-top: 30px; */
+  padding-bottom: 50px;
+}
+.h_aboutus_link{
+  text-decoration: none;
+}
+.h_facility_link{
+  text-decoration: none;
+}
+
+.check_avali {
+  background: #fff;
+  margin-top: 90px;
+}
+
+.check_form .home_check  {
+  border: white solid 1px;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 58px;
+  background: #fff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  box-shadow: 2px 0px 6px #f0cb5d;
+}
+.check_link {
+  text-decoration: none;
+}
+.check_form .check_btn {
+  font-size: 22px;
+  background-color: #080b11;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0px;
+  max-width: 493px;
+  width: 100%;
+  display: block;
+  margin-top: 10px !important;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.check_form .check_btn:hover {
+  background-color: #E1B01B;
+  color: #fff;
+}
+/* end home page */
+
+
+/* start about us */
+.about_us {
+  background: #fff;
+  margin-top: 90px;
+}
+
+.viewmore_btn {
+  font-size: 22px;
+  background-color: #080b11;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0px;
+  max-width: 193px;
+  width: 100%;
+  display: block;
+  margin-top: 30px !important;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.viewmore_btn:hover {
+  background-color: #E1B01B;
+  color: #fff;
+}
+
+.blog{
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: black;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.blog-img{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  border: 0;
+}
+
+.gallery-title {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: black;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.gallery {
+  padding-top: 30px;
+}
+
+.gallery .gallery_img {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.gallery .gallery_img figure {
+  margin: 0;
+}
+
+.gallery .gallery_img figure img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.gallery .gallery_img figure img:hover {
+  transform: scale(1.2);
+}
+
+/* end about us */
+
+/** start contact section **/
+.contact_title{
+  background-color:#0f1521;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact {
+  background: #fff;
+  margin-top: 90px;
+}
+
+.main_form .contactus {
+  border: white solid 1px;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 58px;
+  background: #fff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  box-shadow: 2px 0px 6px #f0cb5d;
+}
+
+.main_form .textarea {
+  border: #fff solid 1px;
+  margin-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 12px 15px 0 15px;
+  box-shadow: 2px 0px 6px #f0cb5d;
+  height: 150px;
+}
+
+.main_form .send_btn {
+  font-size: 22px;
+  background-color: #080b11;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0px;
+  max-width: 193px;
+  width: 100%;
+  display: block;
+  margin-top: 10px !important;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.main_form .send_btn:hover {
+  background-color: #E1B01B;
+  color: #fff;
+}
+
+#request *::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+.map figure {
+  margin: 0;
+}
+
+.map figure img {
+  width: 100%;
+}
+
+
+/** end contact section **/
+
+
+/* room section */
+.room_title{
+  background-color:#0f1521;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.room {
+  background: #fff;
+  margin-top: 90px;
+}
+
+.room .card{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  border: 0;
+}
+.room .card-title{
+  text-align: center;
+}
+
+.r_book{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.r_list{
+  list-style-type: none;
+}
+
+.card-footer:hover{
+background-color: #E1B01B;
+}
+/* end room section */
+
+
+/* start facilities section */
+.about_title{
+  background-color:#0f1521;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.facilities_title{
+  background-color:#0f1521;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.facility {
+  margin-top: 90px;
+  padding: 30px;
+}
+/* end facilities section */
+
+
+/** start footer **/
+.footer {
+  background: #0f1521;
+  margin-top: 90px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.footer h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 15px;
+  padding-bottom: 3px;
+  display: table;
+}
+
+ul.conta li {
+  color: #fff;
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 16px;
+  /* list-style-type: none; */
+}
+
+ul.conta li i {
+  padding-right: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul.conta li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.link_menu li {
+  display: block;
+  text-align: left;
+}
+
+ul.link_menu li.active a {
+  color: #E1B01B;
+}
+
+ul.link_menu li a {
+  color: #fff;
+  font-size: 17px;
+  line-height: 28px;
+  display: block;
+  width: -moz-max-content;
+  text-decoration: none;
+}
+
+ul.link_menu li a:hover {
+  color: #E1B01B;
+}
+
+.bottom_form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.bottom_form h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+  padding-top: 12px;
+  margin-right: 93px;
+  text-transform: uppercase;
+  border: inherit;
+}
+
+.bottom_form .enter {
+  border: inherit;
+  padding: 0px 19px;
+  width: 100%;
+  height: 45px;
+  background: #fffffff2;
+  color: #ccc8c8;
+  font-size: 17px;
+  font-weight: 300;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.sub_btn {
+  font-size: 17px;
+  transition: ease-in all 0.5s;
+  background-color: #fff;
+  color: #E1B01B;
+  padding: 8px 0px;
+  max-width: 147px;
+  width: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 47px;
+}
+
+.sub_btn:hover {
+  background-color: #E1B01B;
+  transition: ease-in all 0.5s;
+  color: #fff;
+}
+
+ul.social_icon {
+  padding-top: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+ul.social_icon li {
+  display: inline-block;
+}
+
+ul.social_icon li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+  border-radius: 30px;
+  padding-left: 0;
+  margin: 0 9px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.social_icon li a:hover {
+  color: #E1B01B;
+}
+
+.copyright {
+  margin-top: 60px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  /* border: #E1B01B solid 2px; */
+  border-right: inherit;
+  border-left: inherit;
+  background-color: #080b11;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  /* border-top: #a3aec6 solid 1px; */
+  padding-top: 25px;
+  font-weight: normal;
+}
+
+.copyright a {
+  color: #E1B01B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/** end footer **/
