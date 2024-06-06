@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="splide/css/splide.min.css">
 </head>
 <body>
 
@@ -17,7 +18,22 @@
       <div class="container">
          <div class="brand">
             <img src="images/logo.jpg" alt="" class="logo-image">
-            <h3>Blissful Berry</h3>
+            <div class="waviy">
+               <span style="--i:1">B</span>
+               <span style="--i:2">L</span>
+               <span style="--i:3">I</span>
+               <span style="--i:4">S</span>
+               <span style="--i:5">S</span>
+               <span style="--i:6">F</span>
+               <span style="--i:7">U</span>
+               <span style="--i:8">L</span>
+               <span style="--i:9"></span>
+               <span style="--i:10">B</span>
+               <span style="--i:11">E</span>
+               <span style="--i:12">R</span>
+               <span style="--i:13">R</span>
+               <span style="--i:14">Y</span>
+             </div>
          </div>
          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -72,25 +88,31 @@
       </div>
    </div>
 
-   <h2 class="blog">Blog</h2>
+   <h2 class="blog-title">Blog</h2>
    <div class="container">
       <div class="card-group">
-         <div class="card blog-img">
-            <img src="images/4.jpg" class="card-img-top" alt="...">
+         <div class="card blog">
+            <div class="blog-img">
+               <figure><img src="images/4.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
                <h5 class="card-title">Swimming Pool</h5>
                <p class="card-text">Dive into luxury at our hotel's stunning swimming pool. Surrounded by lush greenery, our pool offers a refreshing escape with crystal-clear waters and comfortable loungers. Perfect for a morning swim or a relaxing afternoon. Enjoy the ultimate relaxation!</p>
             </div>
          </div>
-         <div class="card blog-img">
-            <img src="images/blog-restaurant.jpg" class="card-img-top" alt="...">
+         <div class="card blog">
+            <div class="blog-img">
+               <figure><img src="images/blog-restaurant.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
                <h5 class="card-title">Restaurant</h5>
                <p class="card-text">Experience culinary excellence at our hotel restaurant. Delight in exquisite dishes crafted from fresh, local ingredients, all served in an elegant, inviting atmosphere. Savor every bite and indulge your senses.Savor delicious dishes in our elegant, inviting hotel restaurant.</p>
             </div>
          </div>
-         <div class="card blog-img">
-            <img src="images/blog_room.jpg" class="card-img-top" alt="...">
+         <div class="card blog">
+            <div class="blog-img">
+               <figure><img src="images/blog_room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
                <h5 class="card-title">Room</h5>
                <p class="card-text">Experience ultimate comfort in our luxurious hotel rooms. Each room features plush bedding, modern amenities, and stunning views, creating a serene retreat. Whether for work or relaxation, enjoy a perfect blend of elegance and convenience during your stay with us.</p>
@@ -204,5 +226,17 @@
 
    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
    <script src="js/typewriter.js"></script>
+   <script src="splide/js/splide.min.js"></script>
+
+  <script>
+    var splide = new Splide( '.splide', {
+        type   : 'loop',
+        perPage: 3,
+        focus  : 'center',
+        } );
+
+        splide.mount();
+
+</script>
 </body>
 </html>

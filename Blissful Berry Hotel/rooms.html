@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="splide/css/splide.min.css">
 </head>
 <body>
 
@@ -18,7 +18,22 @@
     <div class="container">
       <div class="brand">
         <img src="images/logo.jpg" alt="" class="logo-image">
-        <h3>Blissful Berry</h3>
+        <div class="waviy">
+          <span style="--i:1">B</span>
+          <span style="--i:2">L</span>
+          <span style="--i:3">I</span>
+          <span style="--i:4">S</span>
+          <span style="--i:5">S</span>
+          <span style="--i:6">F</span>
+          <span style="--i:7">U</span>
+          <span style="--i:8">L</span>
+          <span style="--i:9"></span>
+          <span style="--i:10">B</span>
+          <span style="--i:11">E</span>
+          <span style="--i:12">R</span>
+          <span style="--i:13">R</span>
+          <span style="--i:14">Y</span>
+        </div>
       </div>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -61,118 +76,131 @@
 
   <div class="room">
     <div class="container">
-      <div class="card-group">
-        <div class="card">
-          <img src="images/single room.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Single Room</h5>
-            <p class="card-text">
-              <ul class="list r_list">
-                <li class="list-item">Max: 1 Person </li>
-                <li class="list-item">Bed: 1</li>
-                <li class="list-item">View: Mountain View</li>
-                <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
-                <li class="list-item">Price: 70000MMK/night</li>
-              </ul>
-            </p>
+      <h2 class="text-uppercase h_room">OUR ROOMS</h2>
+        <div class="card-group">
+          <div class="card">
+            <div class="home_rooms_img">
+              <figure><img src="images/single room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Single Room</h5>
+              <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 1 Person </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 70000MMK/night</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now </p></a>
+            </div>
           </div>
-          <div class="card-footer">
-            <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now </p></a>
+          <div class="card">
+            <div class="home_rooms_img">
+              <figure><img src="images/double room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Double Room</h5>
+              <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 2 Persons </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 95000MMK/night</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now </p></a>
+            </div>
+          </div>
+            <div class="card">
+              <div class="home_rooms_img">
+                <figure><img src="images/suite room.jpg" class="card-img-top" alt="..."></figure>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Suite Room</h5>
+                <p class="card-text">
+                  <ul class="list r_list">
+                    <li class="list-item">Max: 2 Persons </li>
+                    <li class="list-item">Bed: 1</li>
+                    <li class="list-item">View: Mountain View</li>
+                    <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                    <li class="list-item">Price: 100000MMK/night</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now</p></a>
+              </div>
+            </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div class="home_rooms_img">
+              <figure><img src="images/family-room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Family Room</h5>
+              <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 3 Persons </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 160000MMK/night</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now </p></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="home_rooms_img">
+              <figure><img src="images/deluxe-room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Deluxe Room</h5>
+              <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 1 Person </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
+                  <li class="list-item">Price: 90000MMK/night</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now </p></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="home_rooms_img">
+              <figure><img src="images/luxury room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Room</h5>
+              <p class="card-text">
+                <ul class="list r_list">
+                  <li class="list-item">Max: 2 Persons </li>
+                  <li class="list-item">Bed: 1</li>
+                  <li class="list-item">View: Mountain View</li>
+                  <li class="list-item">Service: TV, Wifi, AC, Breakfast, Spa</li>
+                  <li class="list-item">Price: 250000MMK/night</li>
+                </ul>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now </p></a>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="images/double room.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Double Room</h5>
-            <p class="card-text">
-              <ul class="list r_list">
-                <li class="list-item">Max: 2 Persons </li>
-                <li class="list-item">Bed: 1</li>
-                <li class="list-item">View: Mountain View</li>
-                <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
-                <li class="list-item">Price: 95000MMK/night</li>
-              </ul>
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now</p></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/suite room.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Suite Room</h5>
-            <p class="card-text">
-              <ul class="list r_list">
-                <li class="list-item">Max: 2 Persons </li>
-                <li class="list-item">Bed: 1</li>
-                <li class="list-item">View: Mountain View</li>
-                <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
-                <li class="list-item">Price: 100000MMK/night</li>
-              </ul>
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now</p></a>
-          </div>
-        </div>
-      </div>
-      <div class="card-group">
-        <div class="card">
-          <img src="images/family-room.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Family Room</h5>
-            <p class="card-text">
-              <ul class="list r_list">
-                <li class="list-item">Max: 3 Persons </li>
-                <li class="list-item">Bed: 1</li>
-                <li class="list-item">View: Mountain View</li>
-                <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
-                <li class="list-item">Price: 160000MMK/night</li>
-              </ul>
-             </p>
-          </div>
-          <div class="card-footer">
-            <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now</p></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/deluxe-room.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Deluxe Room</h5>
-            <p class="card-text">
-              <ul class="list r_list">
-                <li class="list-item">Max: 1 Person </li>
-                <li class="list-item">Bed: 1</li>
-                <li class="list-item">View: Mountain View</li>
-                <li class="list-item">Service: TV, Wifi, AC, Breakfast</li>
-                <li class="list-item">Price: 90000MMK/night</li>
-              </ul>
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now</p></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/luxury room.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Luxury Room</h5>
-            <p class="card-text">
-              <ul class="list r_list">
-                <li class="list-item">Max: 2 Persons </li>
-                <li class="list-item">Bed: 1</li>
-                <li class="list-item">View: Mountain View</li>
-                <li class="list-item">Service: TV, Wifi, AC, Breakfast, Spa</li>
-                <li class="list-item">Price: 250000MMK/night</li>
-              </ul>
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="contact.html" class="room_link"><p class="text-body-secondary r_book"> Book Now</p></a>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- end  our rooms -->
@@ -234,5 +262,17 @@
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/typewriter.js"></script>
+  <script src="splide/js/splide.min.js"></script>
+
+  <script>
+    var splide = new Splide( '.splide', {
+        type   : 'loop',
+        perPage: 3,
+        focus  : 'center',
+        } );
+
+        splide.mount();
+
+</script>
 </body>
 </html>

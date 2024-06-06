@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="splide/css/splide.min.css">
 </head>
 <body>
 
@@ -17,7 +18,22 @@
       <div class="container">
          <div class="brand">
             <img src="images/logo.jpg" alt="" class="logo-image">
-            <h3>Blissful Berry</h3>
+            <div class="waviy">
+               <span style="--i:1">B</span>
+               <span style="--i:2">L</span>
+               <span style="--i:3">I</span>
+               <span style="--i:4">S</span>
+               <span style="--i:5">S</span>
+               <span style="--i:6">F</span>
+               <span style="--i:7">U</span>
+               <span style="--i:8">L</span>
+               <span style="--i:9"></span>
+               <span style="--i:10">B</span>
+               <span style="--i:11">E</span>
+               <span style="--i:12">R</span>
+               <span style="--i:13">R</span>
+               <span style="--i:14">Y</span>
+            </div>
          </div>
          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -175,5 +191,17 @@
 
    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
    <script src="js/typewriter.js"></script>
+   <script src="splide/js/splide.min.js"></script>
+
+  <script>
+    var splide = new Splide( '.splide', {
+        type   : 'loop',
+        perPage: 3,
+        focus  : 'center',
+        } );
+
+        splide.mount();
+
+</script>
 </body>
 </html>

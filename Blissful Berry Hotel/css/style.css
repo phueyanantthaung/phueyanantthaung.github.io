@@ -2,6 +2,26 @@
   background-color: light;
 }
 
+/* Navbar brand text animation */
+.waviy {
+  position: relative;
+  font-size: 25px;
+  /* font-weight: bold; */
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #E1B01B;
+  text-transform: uppercase;
+  animation: flip 22s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
 /* start home page */
 .logo-image {
     width: 70px;
@@ -14,7 +34,7 @@
     align-items: center;
 }
 
-.brand h3{
+.brand .waviy{
   color: #E1B01B;
 }
 
@@ -69,6 +89,24 @@
   color: black;
   /* padding-top: 30px; */
   padding-bottom: 50px;
+}
+
+.home_rooms_img{
+  overflow: hidden;
+  /* margin-bottom: 30px; */
+}
+
+.home_rooms_img figure{
+  margin: 0;
+}
+
+.home_rooms_img figure img{
+  width: 100%;
+  transition: all .5s;
+}
+
+.home_rooms_img figure img:hover{
+  transform: scale(1.2);
 }
 
 .home_room_link {
@@ -184,7 +222,7 @@
   color: #fff;
 }
 
-.blog{
+.blog-title{
   text-align: center;
   font-weight: 600;
   letter-spacing: 2px;
@@ -194,11 +232,31 @@
   text-transform: uppercase;
 }
 
+.blog{
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+}
+
 .blog-img{
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
   border: 0;
+  overflow: hidden;
+}
+
+.blog-img figure{
+  margin: 0;
+}
+
+.blog-img figure img{
+  /* width: 100%; */
+  transition: all .5s;
+}
+
+.blog-img figure img:hover{
+  transform: scale(1.2);
 }
 
 .gallery-title {

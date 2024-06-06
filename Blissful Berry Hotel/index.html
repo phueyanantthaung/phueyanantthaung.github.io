@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="splide/css/splide.min.css">
     
 </head>
 <body>
@@ -17,7 +18,22 @@
     <div class="container">
       <div class="brand">
         <img src="images/logo.jpg" alt="" class="logo-image">
-        <h3>Blissful Berry</h3>
+        <div class="waviy">
+          <span style="--i:1">B</span>
+          <span style="--i:2">L</span>
+          <span style="--i:3">I</span>
+          <span style="--i:4">S</span>
+          <span style="--i:5">S</span>
+          <span style="--i:6">F</span>
+          <span style="--i:7">U</span>
+          <span style="--i:8">L</span>
+          <span style="--i:9"></span>
+          <span style="--i:10">B</span>
+          <span style="--i:11">E</span>
+          <span style="--i:12">R</span>
+          <span style="--i:13">R</span>
+          <span style="--i:14">Y</span>
+        </div>
       </div>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -163,7 +179,9 @@
       <h2 class="text-uppercase h_room">OUR ROOMS</h2>
         <div class="card-group">
           <div class="card">
-            <img src="images/single room.jpg" class="card-img-top" alt="...">
+            <div class="home_rooms_img">
+              <figure><img src="images/single room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Single Room</h5>
               <!-- <p class="card-text">
@@ -181,7 +199,9 @@
             </div>
           </div>
           <div class="card">
-            <img src="images/double room.jpg" class="card-img-top" alt="...">
+            <div class="home_rooms_img">
+              <figure><img src="images/double room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Double Room</h5>
               <!-- <p class="card-text">
@@ -199,7 +219,9 @@
             </div>
           </div>
             <div class="card">
-              <img src="images/suite room.jpg" class="card-img-top" alt="...">
+              <div class="home_rooms_img">
+                <figure><img src="images/suite room.jpg" class="card-img-top" alt="..."></figure>
+              </div>
               <div class="card-body">
                 <h5 class="card-title">Suite Room</h5>
                 <!-- <p class="card-text">
@@ -219,7 +241,9 @@
         </div>
         <div class="card-group">
           <div class="card">
-            <img src="images/family-room.jpg" class="card-img-top" alt="...">
+            <div class="home_rooms_img">
+              <figure><img src="images/family-room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Family Room</h5>
               <!-- <p class="card-text">
@@ -237,7 +261,9 @@
             </div>
           </div>
           <div class="card">
-            <img src="images/deluxe-room.jpg" class="card-img-top" alt="...">
+            <div class="home_rooms_img">
+              <figure><img src="images/deluxe-room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Deluxe Room</h5>
               <!-- <p class="card-text">
@@ -255,7 +281,9 @@
             </div>
           </div>
           <div class="card">
-            <img src="images/luxury room.jpg" class="card-img-top" alt="...">
+            <div class="home_rooms_img">
+              <figure><img src="images/luxury room.jpg" class="card-img-top" alt="..."></figure>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Luxury Room</h5>
               <!-- <p class="card-text">
@@ -399,5 +427,17 @@
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/typewriter.js"></script>
+  <script src="splide/js/splide.min.js"></script>
+
+  <script>
+    var splide = new Splide( '.splide', {
+        type   : 'loop',
+        perPage: 3,
+        focus  : 'center',
+        } );
+
+        splide.mount();
+
+</script>
 </body>
 </html>
