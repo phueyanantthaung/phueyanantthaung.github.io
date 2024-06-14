@@ -62,7 +62,7 @@
   <!-- end navigation -->
 
   <!-- start carousel slide -->
-  <div class="carousel slide h_carousel" id="myCarousel" data-bs-ride="carousel">
+  <!-- <div class="carousel slide h_carousel" id="myCarousel" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button class="active indi" data-bs-target="#myCarousel" data-bs-slide-to="0"></button>
       <button data-bs-target="#myCarousel" data-bs-slide-to="1" class="indi"></button>
@@ -97,81 +97,116 @@
     <button class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
     </button>
-  </div>
+  </div> -->
   <!-- end carousel slide -->
 
   <!-- start check availability -->
-  <div class="container check_avali">
+  
+  <!-- <div class="container">
+          <form action="#" class="check_form">
+            <div class="row">
+              <div class="col-lg-2">
+                <label for="hotel_date_from" class="label-text">From</label>
+              <input type="date" name="start_date" id="hotel_date_from" class="form-control home_check">
+              </div>
+              <div class="col-lg-2">
+                <label for="hotel_date_to" class="label-text">To</label>
+            <input type="date" name="end_date" id="hotel_date_to" class="form-control home_check">
+              </div>
+            </div>
+              <div class="col-lg-1">
+                <label for="customer_one" class="label-text">Adults</label>
+                <input type="number" name="name" id="customer_one" class="form-control home_check">
+              </div>
+              <div class="col-lg-1">
+                <label for="customer_two" class="label-text">Children</label>
+                <input type="number" name="name" id="customer_two" class="form-control home_check">
+              </div>
+              <div class="col-lg-1">
+                <label for="customer_room" class="label-text">Rooms</label>
+                <input type="number" name="num" id="customer_room" class="form-control home_check">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <label for="choose_room" class="label-text">Room</label>
+              <select name="name" id="available_room" class="form-control home_check">
+                <option vlaue="">Select Room</option>
+                <option value="">Single Room</option>
+                <option value="">Double Room</option>
+                <option value="">Suite Room</option>
+                <option value="">Family Room</option>
+                <option value="">Deluxe Room</option>
+                <option value="">Luxury Room</option>
+              </select>
+              </div>
+            </div>
+            <div class="row"> -->
+              <!-- <div class="col-lg-5">
+                <a href="contact.html" class="check_link"><button type="button" class="form-control check_btn">CHECK AVAILABILITY</button></a>
+              </div>
+            </div>
+          </form>
+      </div> -->
+  <!-- end check availability -->
+  
+  <div class="bg-img">
+    <div class="overlay">
+    <div class="container"> 
     <div class="row">
-      <div class="col-lg-7">
-        <img src="images/check photo.jpg" alt="" class="img-fluid">
-      </div>
-      <div class="col-lg-5">
-        <form action="#" class="check_form">
-          <div class="row">
-            <div class="col-lg-6">
-              <label for="hotel_date_from" class="label-text">From</label>
-          <input type="date" name="start_date" id="hotel_date_from" class="form-control home_check">
-            </div>
-            <div class="col-lg-6">
-              <label for="hotel_date_to" class="label-text">To</label>
-          <input type="date" name="end_date" id="hotel_date_to" class="form-control home_check">
-            </div>
+    <form action="" class="check_form">
+      <div class="row">
+          <div class="col-lg-2">
+            <label for="hotel_date_from" class="label-text">Check in</label>
+                  <input type="date" name="start_date" id="hotel_date_from" class="form-control home_check">
           </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <label for="customer_one" class="label-text">Adults</label>
-              <input type="number" name="name" id="customer_one" class="form-control home_check">
-            </div>
-            <div class="col-lg-4">
-              <label for="customer_two" class="label-text">Children</label>
-              <input type="number" name="name" id="customer_two" class="form-control home_check">
-            </div>
-            <div class="col-lg-4">
-              <label for="customer_room" class="label-text">Rooms</label>
-              <input type="number" name="num" id="customer_room" class="form-control home_check">
-            </div>
+          <div class="col-lg-2">
+            <label for="hotel_date_to" class="label-text">Check out</label>
+                <input type="date" name="end_date" id="hotel_date_to" class="form-control home_check">
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <label for="choose_room" class="label-text">Room</label>
-            <select name="name" id="available_room" class="form-control home_check">
-              <option vlaue="">Select Room</option>
-              <option value="">Single Room</option>
-              <option value="">Double Room</option>
-              <option value="">Suite Room</option>
-              <option value="">Family Room</option>
-              <option value="">Deluxe Room</option>
-              <option value="">Luxury Room</option>
-            </select>
-            </div>
+          <div class="col-lg-1">
+            <label for="customer_one" class="label-text">Adults</label>
+                    <input type="number" name="name" id="customer_one" class="form-control home_check">
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <a href="contact.html" class="check_link"><button type="button" class="form-control check_btn">CHECK AVAILABILITY</button></a>
-            </div>
+          <div class="col-lg-1">
+            <label for="customer_two" class="label-text">Children</label>
+                    <input type="number" name="name" id="customer_two" class="form-control home_check">
           </div>
-        </form>
+          <div class="col-lg-1">
+            <label for="customer_room" class="label-text">Rooms</label>
+                    <input type="number" name="num" id="customer_room" class="form-control home_check">
+          </div>
+        <div class="col-lg-5">
+          
+          <a href="https://www.booking.com/country/mm.en-gb.html?aid=356980&label=gog235jc-1DCAIolQFCAm1tSDNYA2iVAYgBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gCysCrswbAAgHSAiQyNzMxMjJhMi1kYTE2LTQ1MDgtYTQ2ZC00MDE0ODc3OWViMTXYAgTgAgE&sid=b1d09fb726915920965cf9d8fc0c47ac&keep_landing=1&" target="blank" class="home_checkavail_link">
+            <button type="button" class="form-control check_btn mt-4">CHECK AVAILABILITY</button>
+          </a>
+        </div>
       </div>
     </div>
+    </form>
   </div>
-  <!-- end check availability -->
+  </div>
+  </div>
+  
 
-  <!-- start contact us -->
+  <!-- start about us -->
   <div class="container about_us">
     <h2 class="text-uppercase h_about">About Us</h2>
     <div class="row" id="about">
       <div class="col-lg-5">
-        <p>Welcome to The Blissful Berry Hotel, where charm and comfort come together to create a delightful escape. Nestled in a picturesque location, our hotel offers cozy, elegantly designed rooms with modern amenities and stunning views. Enjoy delicious dishes at our intimate restaurant, unwind with soothing treatments at our boutique spa, or explore nearby attractions with our curated activities.Discover a haven of peace and relaxation at The Blissful Berry Hotel. Let us make your visit unforgettable with our warm hospitality and exceptional service.</p>
+        <p>Welcome to Blissful Berry Hotel, where luxury meets comfort in the heart of Mandalay. Our elegantly designed hotel offers an exceptional blend of modern amenities and timeless sophistication, ensuring a memorable stay for every guest. 
+          From the moment you step into our grand lobby, you'll be greeted with warm hospitality and impeccable service, setting the tone for an unforgettable experience. Our spacious rooms and suites are thoughtfully appointed with premium furnishings, plush bedding, and state-of-the-art technology to provide the utmost in relaxation and convenience. Indulge in culinary delights at our on-site restaurants, where our chefs create exquisite dishes using the freshest local ingredients. Whether you're enjoying a casual meal or celebrating a special occasion, our dining options cater to every palate.
+          </p>
         <a href="about.html" class="h_aboutus_link"><button class="viewmore_btn px-4">View More</button></a>
         <br>
       </div>
       <div class="col-lg-7">
-        <img src="images/ab.jpg" class="img-fluid" alt="">
+        <img src="images/1.jpg" class="img-fluid" alt="">
       </div>
     </div>
   </div>
-  <!-- end contact us -->
+  <!-- end about us -->
 
   <!-- start room -->
   <div class="room">
@@ -309,26 +344,29 @@
   <div class="container">
       <h3 class="text-uppercase h_facility">Facilities</h3>
         <div class="row" id="facilities">
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <img src="images/f1.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-6 mt-4">
           <br>
             <h4>FITNESS CENTER</h4>
-            <p>Our fitness center offers state-of-the-art equipment for a revitalizing workout experience during your stay.</p>
-            <a href="facilities.html" class="h_facility_link"><button class="viewmore_btn px-4">View More</button></a>
+            <p>
+              Welcome to our Fitness Center, your go-to destination for maintaining your fitness routine while traveling. Our state-of-the-art facility is equipped with the latest cardio machines, free weights, and strength-training equipment to cater to all your workout needs. Whether you're an avid fitness enthusiast or just looking to stay active, our spacious and well-lit gym provides a comfortable environment for every guest.
+               Complimentary towels, water, and a selection of fitness accessories are available to enhance your experience. Open 24/7 for your convenience, the [Hotel Name] Fitness Center is dedicated to helping you achieve your fitness goals. Stay fit, stay healthy.
+            </p>
           </div>
         </div>
         <br><br>
         <div class="row" id="facilities">
-          <div class="col-lg-4">
+          <div class="col-lg-6 mt-4">
           <br>
             <h4>RESTAURANT</h4>
-            <p>Enjoy gourmet dining at our hotel restaurant, featuring fresh, local ingredients in an elegant setting.</p>
-            <a href="facilities.html" class="h_facility_link"><button class="viewmore_btn px-4">View More</button></a>
+            <p>
+              Welcome to Blissful Berry's exquisite restaurant, where culinary excellence meets a warm, inviting ambiance. Our talented chefs craft delectable dishes using the freshest local ingredients, offering a diverse menu that caters to all tastes. Whether you're enjoying a hearty breakfast, a leisurely lunch, or a gourmet dinner, our restaurant promises a memorable dining experience. Relax with a glass of fine wine from our curated selection or savor one of our signature cocktails. Perfect for intimate dinners or casual gatherings, [Hotel Name]'s restaurant combines impeccable service with a cozy atmosphere, ensuring every meal is a delightful occasion. Join us and indulge in culinary bliss.
+            </p>
             <br>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <img src="images/f2.jpg" class="img-fluid" alt="">
           </div>
         </div>
